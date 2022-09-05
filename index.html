@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Saya</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: black;
+            font-family: cursive;
+
+        }
+        header{
+            width: 100%;
+            height: 70px;
+            color: rgb(4, 245, 233);
+            display: flex;
+             box-sizing: border-box;
+            justify-content: space-around;
+            background-color: rgb(212, 6, 202);
+            /* background-color: #002B5B; */
+            align-items: center;
+            /* border: 1px solid red; */
+        }
+        .logo{
+            width: 40%;
+            height: 70px;
+            /* border: 1px solid greenyellow; */
+            display: flex;
+            align-items: center;
+            box-sizing: border-box;
+        }
+        .logo h1{
+            font-size: 40px;
+        }
+        nav {
+            width: 50%;
+        }
+        ul{
+            width: 100%;
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* border: 1px solid red; */
+            box-sizing: border-box;
+        }
+        nav ul li{
+            width: 150px;
+            height: 50px;
+            background-color: rgb(0, 139, 139);
+            border: 1px solid skyblue;
+            color: rgb(6, 245, 153);
+            font-family: cursive;
+            border-radius: 5px;
+            transition: .4s;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+        nav ul li:hover{
+            background-color: skyblue;
+            color: darkblue;
+        }
+
+        .home{
+            width: 100%;
+            height: 500px;
+            background-color: rgb(112, 204, 247);
+            /* background-color: #2B4865; */
+            color: darkblue;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .home p{
+            font-size: 40px;
+        }
+
+        article{
+            background-color: cornflowerblue;
+            padding: 20px;
+            
+            display: flex;
+            flex-direction: column;
+        }
+        article .judul-about{
+            margin: auto;
+            margin-bottom: 20px;
+            color: rgb(3, 59, 92);
+        }
+
+        
+    </style>
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <h1>Nats34</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>Home</a></li>
+                <li><a href="biodata.html">My Profile</a></li>
+                <li><a href="hobi.html">Hobi&Musik Fav</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="home">
+            <h2>Selamat Datang Di Website Profile</h2>
+            <p>Halo Guys</p>
+        </div>
+        <article>
+            <div class="judul-about">
+                <h2>About Me</h2>
+            </div>
+            <div class="about">
+                <div class="kiri">
+                    <p>Perkenalkan nama saya Zakharian Natanael,
+                       Saya tinggal di Jakarta, saya merupakan seorang pelajar dari SMK ANGKASA 1 JAKARTA,   
+                       hobi saya bermain game.</p>
+                </div>
+                <div class="kanan">
+                    <p>Karena saya suka main game, saya mulai berpikiran ingin membuat game, 
+                       Maka dari itu saya terjun didunia pemrograman pun dimulai.</p>
+                </div>
+            </div>
+        </article>
+    </main>
+
+</body>
+</html>
